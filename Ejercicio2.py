@@ -34,9 +34,9 @@ def piedraPapelTijeras (Op1,Op2,Nom1,Nom2):
 Nom1 = input("Ingrese su nombre (Jugador 1): ")
 Nom2 = input("Ingrese su nombre (Jugador 2): ")
 print ("Elige una opción",
-      "1. Piedra",
-      "2. Papel",
-      "3. Tijera")
+    "1. Piedra",
+    "2. Papel",
+    "3. Tijera")
 Op1 =int(input (f"Ingrese tu opcion Jugador {Nom1}: "))
 Op2 =int(input (f"Ingrese tu opcion Jugador {Nom2}: "))
 #Se llama la funcion 
