@@ -7,7 +7,7 @@
 # empate triple.
 # Función para leer los votos de los candidatos
 def leer_votos(candidato):
-    return int(input(f"Ingrese el número de votos para {candidato}: "))
+  return int(input(f"Ingrese el número de votos para {candidato}: "))
 
 # Ingresar los votos de los tres candidatos
 votos_A = leer_votos("Candidato A")
